@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+   background: #f7f5f2;
+}
+.section-navbar{
+    position: fixed;
+}
+.navbar{
+    width: 99vw;
+    height: 5vh;
+    background-color: rgb(0, 0, 0); 
+    display:flex;
+    align-items: center;
+    
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul a:hover
+{
+    color: #000000;
+    transition: 0.8s;
+    background: #ffffff;
+    height: 5vh;
+}
+.img1{
+    height: 100vh;
+    background: url(./img/coffeehouse.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    font-size: xxx-large;
+    font-family: math;
+    color: white;
+}
+.head2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: xxx-large;
+    font-family: math;
+    color: white;
+}
+.input-serch{
+    display: flex;
+    justify-content: center;
+}
+.paragraph1 
+{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 500px;
+    color: white;
+    
+}
+.color{
+    background: black;
+    color: white;
+}
+
+.section1
+{
+    padding-top: 15px;
+}
+.section1 div
+{
+    width: 600px;
+    height: 628px;
+    margin: 0px auto;
+}
+.head3
+{
+    background: black;
+    color: white;
+    width: max-content;
+    margin: 0 auto;
+}
+.section1 div p
+{
+    padding-top: 25px;
+}
+.box
+{
+    border-left: 5px solid #999595;
+    background: #f3f3f3;
+    margin: 15px 1px 22px 0px;
+    padding: 0px 5px 5px 5px;
+}
+.img2
+{
+    width: 600px;
+}
+.hp1 
+{
+    display: inline;
+}
+.hp2
+{
+    display: table-cell;
+}
+.section2
+{
+    padding-top: 75px;
+}
+.section2 div
+{
+    margin: 40px auto;
+}
+.head4
+{
+    background: black;
+    color: white;
+    width: max-content;
+    margin: 0 auto;
+}
+.section3 div
+{
+    border: 5px solid rgb(205, 205, 205);
+    width: 500px;
+    height: 421px;
+    margin: 0 auto;
+    background: #f7f5f2;
+}
+.b1
+{
+    width: 248px;
+    background: #616161 ;
+}
+.b2
+{
+    width: 248px;
+}
+.head5
+{
+    padding-top: 30px;
+}
+.paragraph2
+{
+    padding: 9px 0 5px 0;
+}
+.img3
+{
+    width: 475px;
+    margin: 15px auto;
+    padding-left: 13px;
+}
+.section4
+{
+    padding-top: 15px;
+}
+.div1
+{
+    width: 600px;
+    height: 628px;
+    margin: 315px auto;
+}
+.head6
+{
+    background: black;
+    color: white;
+    width: max-content;
+    margin: 0 auto;
+}
+.paragraph3
+{
+    margin: 35px 0 0 4px;
+}
+.img4
+{
+    width: 600px;
+    margin-top: 5px;
+}
+.div2
+{
+    display: flex;
+}
+.div2::before
+{
+    content: "FYI";
+    background: black;
+    color: white;
+    width: max-content;
+    height: 20px;
+}
+
+.paragraph5
+{
+    padding-top: 15px;
+}
+.paragraph5::before
+{
+   content: "Resever"; 
+   font-weight: bold;
+}
+.form1
+{
+    display: flex;
+    flex-direction: column;
+}
+.input1
+{
+    padding: 10px;
+    margin: 10px 0px 15px 0;
+}
+.input2
+{
+    padding: 10px;
+    margin: 10px 0px 15px 0;
+}
+.input3
+{
+    padding: 10px;
+    margin: 10px 0px 15px 0;
+}
+.input4
+{
+    padding: 10px;
+    margin: 10px 0px 15px 0;
+}
+.input5
+{
+    padding: 5px;
+    margin: 10px 500px 15px 0px
+}
+
+.footer1 p
+{
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
